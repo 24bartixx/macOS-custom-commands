@@ -15,6 +15,8 @@ try:
     with open(shell_config_path, "a") as file:
         file.write(file_content)
 
+     os.system("source ~/.zshrc")
+
     print(f"Success! You can now use flutter_prepare before git push of your Flutter project")
 
 except Exception as e:
