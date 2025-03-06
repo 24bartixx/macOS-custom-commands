@@ -12,12 +12,12 @@ flutter_prepare() {{
 shell_config_path = os.path.expanduser("~/.zshrc")
 
 try:
-     with open(shell_config_path, "a") as file:
-          file.write(file_content)
+    with open(shell_config_path, "a") as file:
+        file.write(file_content)
 
-     os.system("source ~/.zshrc")
+    os.system("source ~/.zshrc")
 
-     print(f"Success! You can now use flutter_prepare before git push of your Flutter project")
+    print(f"Success! You can now use flutter_prepare before git push of your Flutter project")
 
 except Exception as e:
-     print(f"An error occurred: {e}")
+    print(f"An error occurred: {e}")
