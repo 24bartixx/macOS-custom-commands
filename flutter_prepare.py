@@ -5,6 +5,7 @@ file_content = f"""
 flutter_prepare() {{
      dart fix --apply && \\
      dart format . && \\
+     dart fix --apply && \\
      flutter analyze
 }}
 """
