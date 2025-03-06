@@ -4,6 +4,7 @@ Are you tired of constantly typing
 ```zhc
 dart fix --apply
 dart format .
+dart fix --apply
 flutter analyze
 ```
 Now you can perform all of it in one command
