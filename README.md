@@ -14,10 +14,5 @@ flutter_prepare
 # Setup
 Type in your Terminal
 ```zhc
-flutter_prepare
-```
-
-Then
-```zhc
-flutter_prepare
+curl -sSL https://raw.githubusercontent.com/24bartixx/macOS-custom-commands/main/flutter_prepare.py | python3
 ```
