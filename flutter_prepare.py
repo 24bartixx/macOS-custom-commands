@@ -5,7 +5,7 @@ file_content = f"""
 flutter_prepare() {{
      dart fix --apply && \\
      dart format . && \\
-    flutter analyze
+     flutter analyze
 }}
 """
 
@@ -20,4 +20,4 @@ try:
      print(f"Success! You can now use flutter_prepare before git push of your Flutter project")
 
 except Exception as e:
-    print(f"An error occurred: {e}")
+     print(f"An error occurred: {e}")
