@@ -13,7 +13,7 @@ shell_config_path = os.path.expanduser("~/.zshrc")
 
 try:
      with open(shell_config_path, "a") as file:
-        file.write(file_content)
+          file.write(file_content)
 
      os.system("source ~/.zshrc")
 
